@@ -1,2 +1,2 @@
 # Fresco
-This repository contains codes of various Fresco courses.
+This repository contains codes of various Fresco courses. Updated
