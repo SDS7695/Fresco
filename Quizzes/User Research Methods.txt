@@ -1,0 +1,75 @@
+1. User Research is essential because _____________________________________.
+Ans All the options 
+
+2. People from this cultural group are more tolerant to new ideas and opinions that differ from their own.
+Ans People with low uncertainty avoidance
+
+3. Which of the following is also known as split testing?
+Ans A/B testing 
+
+4. User Research is the first step of a UX design process.
+Ans True 
+
+5. Contextual Interview can be done without users.
+Ans False 
+
+6. The technique used for evaluating findability of topics in a website is ________________________.
+Ans Tree test 
+
+7. It is a sequential art, where images are arrayed together to visualize the story.
+Ans Storyboard 
+
+8. ____________ user research method comes from motion picture production.
+Ans Storyboard 
+
+9. Tree testing is not similar to card sorting.
+Ans False
+
+10. Which of these techniques are used exclusively for designing hierarchy?
+Ans Card Sorting 
+
+11. The systematic process of collecting and analyzing target customer data, the competition, and the target market environment to aid in making messaging, positioning and pricing decisions is _______________________.
+Ans Market Research 
+
+12. User Research means _________________________.
+Ans All the options 
+
+13. A fictitious representation of a group of users is __________________________________.
+Ans User Persona 
+
+14. User Persona is a ___________________________.
+Ans Qualitative Approach --------wrong
+
+15. People from collectivist culture prefer having “most popular” categories, testimonials, or social media sharing options to gather instant and personal feedback from friends.
+Ans True 
+
+16. Design should not be changed based on iterations.
+Ans False
+
+17. This is an additional deliverable that gathers all recommendations together in a simple table format—usually in Word or Excel—with a summary of the findings that led to each recommendation and, often, a severity rating for each issue.
+Ans Findings and Recommendations Matrix
+
+18. Surveys and questionnaires are primarily used for collecting information from a large number of users.
+Ans True
+
+19. In this technique, users are provided with two or more options for selection.
+Ans A/B Tests 
+
+20. A process that emphasizes the tasks users must perform and the situation in which the tasks are performed is ______________________.
+Ans Task Analysis 
+
+21. Tree testing is similar to card sorting.
+Ans True
+
+22. The techniques used to evaluate the hierarchy of a website are ____________________________.
+Ans Card Sorting and Tree Testing
+
+23. People with low uncertainty avoidance are restricted to new ideas.
+Ans False 
+
+24. A stakeholder could only be clients/customers.
+Ans False
+
+25. Power Distance Index measures _____________.
+Ans The degree of a society’s level of inequality endorsed by the followers as much as by the leaders
+

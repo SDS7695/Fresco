@@ -1,0 +1,59 @@
+1. A K-Means Cluster is said to be well defined if the cluster is ________.
+Ans Ellipse
+
+2. Azure Webservice is based on ____________.
+Ans: REST API & JSON
+
+3. An environment for working with Azure Machine Learning in an Azure subscription does not automatically create ___________.
+Ans: Web service --- doubt
+
+4. Which of the following is false about Train Data and Test Data in Azure ML Studio _________?
+Ans: Train data and Test data split should follow a thumb-rule of 80 : 20.
+
+5. In Azure Stream analytics, webservice is added as a ___________.
+Ans Function
+
+6. A web service can be published as Classic or [New]. Does this make any difference?
+Ans: Yes; in managing web service.---doubt
+
+7. If training time can be traded for accuracy, we can use _____________.
+Ans: Neural Network
+
+8. When predicting if the patient has cancer or not, which parameter must be given importance?
+Ans: Recall
+
+9. Predictive Experiment can be used directly after creating it from a training experiment. Select the appropriate option as answer.
+ANs: True, but need changes with data transformation.----doubt
+
+10. Which of the following is the best model to predict the number of earthquakes occurring at a place based on historical data?
+Ans: Poisson Regreesion
+
+11. A client application needs to fetch reference data based on customer location and data is shared on multiple databases. Servicing the application through a single prediction web service is possible through ______________.
+Ans:Parametrising Database location-----doubt
+
+12. Average amount of money spent by a user at a Supermarket can be predicted through ____________ .
+Ans: Regression
+
+13.Select the option that represents the correct order of following tasks: (A) Predictive Experiment (B) Training Experiment (C) Model Evaluation (D) Data Preprocessing (E) API Publishing
+Ans: B,D,C,A,E
+
+14. To retrain the predictive model and update the webservice through Azure Data Factory, which of the datasets are required?
+Ans: An Azure Storage blob for the output of an AzureMLUpdateResource activity. -----doubt
+
+15. Get the required size of a dataset from a large amount of accumulated data is called ________.
+Ans: Statistical Sampling
+
+16.Simple way to explore multiple datafiles from a Big Data Job is ____________.
+Ans: Use Import
+
+17.Data Visualization in Azure ML Studio is possible through ________.
+Ans Jupyter notebook
+
+18. Mean variance Normalization is used in case when the parameter distribution is __________.
+Ans: Bell shaped distribution -----doubt
+
+19.In comparison to Azure Machine Learning Service, Azure Machine Learning Studio has ____________.
+Ans: All---doubt
+
+20. To prevent running Import Data module each time, we run an experiment, when data is imported from Azure Blob storage, we can use _____________.
+Ans: Stored results----doubt

@@ -1,0 +1,61 @@
+1. GD with momentum smooths out the path taken by gradient descent.
+Ans True
+
+2. GD with momentum keeps track of gradients calculated from the previous mini batch.
+Ans True
+
+3. GD with momentum reduces the variance of the model.
+Ans False
+
+4. RMS prop multiples the root mean square of a gradient with the current gradient.
+Ans False
+
+5. The gradients in gradient descent with momentum is based on ____________
+Ans Weighted Moving Average
+
+6. The role of ϵ in adam prop is to _______________________.
+Ans Provide numerical stability --wrong 
+
+7.RMS prop reduces the gradients in the vertical direction of gradient steps. 
+Ans True
+
+8. The formula to calculate the weighted moving average of gradients concerning weights is _______________.
+Ans V​n​​ =β∗V​n−1​​ +(1−β)∗dW​n
+​​
+9. In GD with momentum, an increase in the value of \betaβ increases the time taken for convergence
+Ans True
+
+10. Adam prop is the combination of momentum and RMS prop.
+Ans True
+
+11. The problem of having a constant learning rate is ____________
+Ans All of the options
+
+12. Linear scale search is usually used for choosing many nodes in the layer.
+Ans True
+
+13 The drawback of grid search is _______________.
+Ans Accuracy might be same over a range of search 
+
+14 The problem of internal covariant shift is profound when ____________.
+Ans When the batch size is equal to 1
+
+15 Batch normalization cannot perform well when there is a change in the distribution of input.
+ANs False
+
+16 When you have a large set of hyperparameters, grid search is preferred over a randomized search.
+Ans False
+
+17 The chances of arriving at the best set of hyperparameters are high in a random search.
+Ans True
+
+18. Benefit/Benefits of batch normalization is/are _________.
+Ans All of the options 
+
+19 The normalized z in batch normalization is scaled and shifted before feeding to activation.
+Ans True
+
+20 Linear scale search performs a uniform search when choosing a learning rate.
+Ans False
+
+

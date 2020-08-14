@@ -1,0 +1,77 @@
+1. Which of the following can be used to overcome overfitting?
+Ans All of the options 
+
+2. If the regularization parameter λ is zero then the network might show __________.
+Ans High Variance
+
+2A. If the regularization parameter λ is too large then the network might show ______.
+Ans High Bias
+
+3. The advantage of normalizing data is _____________.
+Ans Both the options 
+
+4. Early stopping is one of the technique to minimize overfitting.
+Ans True
+
+5. If keep_prob value in dropout is equal to one then __________.
+Ans the network never implements dropout
+
+6. Which regularization technique uses a weighted sum of squared weights to penalize the cost function?
+Ans L2
+
+7. The model is said to overfit when _____________.
+Ans performs very well on train set but poorly on dev set
+
+8. In early stopping technique, the training of network is stopped when __________.
+Ans The cost on train set starts to decrease and cost on dev set continues to increase
+
+9. In softmax regression, the sum of the outputs of each node at final layer is always equal to _________.
+Ans one 
+
+10. The path taken by minibatch gradient is more noisy than normal gradient descent.
+Ans True
+
+11. If weights are initialized to very low value the network suffers from Exploding gradient problem.
+Ans False 
+
+11A. If weights are initialized to very low value the network suffers from vanishing gradient problem.
+Ans True
+
+12. Minibatch gradient descent is much slower than stochastic gradient descent.
+Ans False	
+
+13. The minibatch size in stochastic gradient descent is equal to ___________.
+Ans one
+
+14. Binary classification cannot be implemented using softmax regression.
+Ans False 
+
+15. The target must be one hot encoded before carrying softmax regression.
+Ans True
+
+16. Regularization optimizes the time taken to train the network
+Ans False
+
+17. The network performance is said to be biased when _________.
+Ans It performs well on train set but poorly on dev set----
+
+18. Vanishing/exploding gradient problem can be minimized by normalizing inputs.
+Ans False
+
+19. Data augmentation is a technique used to _________.
+Ans generate more data from existing data
+
+20. Xavier initialization is the technique used to _________.
+Ans minimize vanishing/exploding gradient problem---- wrong
+
+21. When applying softmax regression, the number of nodes in the output layer is equal to ____________.
+Ans number of unique classes
+
+22. Most of the dataset available is allocated to train the network.
+Ans True
+
+23. Early stopping is one of the technique to minimize overfitting.
+Ans True
+
+24. Droupout cannot be applied to output layer of network.
+Ans True

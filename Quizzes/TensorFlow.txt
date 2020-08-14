@@ -1,0 +1,85 @@
+1. What does an edge represent in a data flow graph?
+Ans Tensor
+
+2. Running the TensorFlow session is mandatory to run TensorFlow graph.
+Ans True
+
+3. Which one of the following would you use to pass data to placeholder during session runtime?
+Ans feed_dict: {}
+
+3A. Which one of the following you make use of when you want to pass the data from a source during session runtime?
+Ans placeholder ----
+
+4. How is a vector represented?
+Ans List of numbers
+
+5. Which one of the following you make use of when you want to pass the data from a source during session runtime?
+Ans placeholder
+
+6. .TensorFlow performs necessary uplifting to perform gradient descent optimization.
+Ans True
+
+7. Which of the following is used to find dot product of two matrix?
+Ans tf.matmul(mat1,mat2)
+
+8. Linear regression requires an activation function when calculating the output.
+ANs False
+
+9. What are the color channels that each image is broken down into?
+ANs Red Blue and Green
+
+10. The independent variable is _______________ and is used to predict the changes in the dependent variable.
+Ans Explanatory
+
+11. While fitting linear regression model , ___________________ is minimized during training.
+Ans Loss
+
+12. Which one of the following would you use to initialize a constant in TensorFlow?
+Ans tf.constant()
+
+13. When there are multiple dependent variables in a model, what is the model called?
+Ans Multi Variate Linear Regression
+
+14. The advantage of using a placeholder is when required data can be added during the actual runtime from any external sources.
+Ans True
+
+15. Gradient Descent is an example of ____________________.
+Ans Optimizer
+
+16. Which of the following is minimized when you run tf.train.GradientDescentOptimizer().minimize()?
+Ans: learning rate
+
+17. Which of the following acts as in memory buffers?
+Ans Variables
+
+18. Which of the function always maps the values between 0 and 1.
+Ans Sigmoid
+
+19. TensorFlow is based on _________________.
+Ans Data Flow Graphs
+
+20. A _________________ has only magnitude but no direction.
+Ans Scalar
+
+21. Dimension determines the number of coordinates required to locate a specific point.
+Ans True
+
+22. In TensorFlow computation graph, the nodes represent mathematical operations.
+Ans True
+
+23. What is a Tensor?
+Ans an n-dimensional array
+
+24. Variables should always be initialized before running the session.
+Ans True
+
+25. The bias is not updated throughout the training process.
+Ans False
+
+26. How is a vector represented?
+Ans List of Numbers
+
+27. What methodology should you follow to close a TensorFlow session automatically in your code?
+Ans Use a with block in the code 
+
+

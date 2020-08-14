@@ -1,0 +1,47 @@
+1. Which one of the following libraries are mainly designed for machine vision?
+Ans Caffe
+
+2. Deep learning software platforms are available as a downloadable package.
+Ans True
+
+3. Which one of the following libraries stores and communicates data using blobs?
+Ans Caffe
+
+4. What is a Tensor?
+Ans An n-dimentional array
+
+5. Which one of the following libraries comes with a visualization tool for deep learning?
+Ans Tensorflow
+
+6. Which one of the following libraries uses computations graph of deep learning?
+Ans Tensorflow
+
+7. What is meant by precision in terms of deep learning metrics?
+Ans Difference between an actual and predicted value
+
+8. FPGAs are power efficient when compared to GPU.
+Ans True
+
+9. Deep learning is not suitable for text analysis.
+Ans False
+
+10. In the Pruning technique, initially, we start with a small number of neurons.
+Ans False
+
+11. Learning rate is learned by the network when training.
+Ans True
+
+12. A convolutional neural network is mainly used for image recognition.
+Ans True
+
+13. Deep learning performs better when sequential processing is used.
+Ans False
+
+14. Formula for recall is ______________.
+Ans TP/(TP + FN)
+
+15. Formula for precision is _____________.
+Ans TP/(TP + FP)
+
+16. Which one of the functions always maps the values between 0 and 1?
+Ans Sigmoid 

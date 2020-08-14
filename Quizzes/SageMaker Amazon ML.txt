@@ -1,0 +1,286 @@
+Which of the following is a statically typed language preferred for performance in Machine Learning tasks?
+
+-$$Scala
+
+
+SageMaker metrics are captured by ______________.
+-$$CloudWatch
+
+
+Hold-Out dataset is used for _________________.
+
+-$$Validation
+
+
+
+Custom Algorithms can be implemeted via _________________.
+
+-$$Docker and Jupyter
+
+
+
+Hyperparameter tuning in SageMaker is ___________________.
+
+-$$Automatic once enabled
+
+
+Asynchronous Predictions are possible in SageMaker through _________________.
+
+-$$BatchTranform
+
+
+Inference code _________________________.
+
+-$$Gets predictions from a model
+
+
+Which of the following algorithms is best suited for detecting malicious server activity?
+
+-$$IP Insights
+
+
+Training Data for SageMaker models is ___________________.
+
+-$$Stored in S3
+
+
+
+Log scaled parameters for hyperparameter tuning _____________________.
+
+-$$Can be specified or automatically detected
+
+
+It is mandatory to capture metrics for custom models ________________.
+
+-$$To specify logged data and use regular expressions
+
+
+
+
+Automated Hyperparameter tuning is not recommended for ___________________.
+
+-$$All the given options
+
+
+Accuracy over long time can be maintained using _________________.
+
+-$$incremental training with inference data
+
+
+
+Cross-Platform Model Deployment for inferences is enabled through ______________.
+
+-$$SageMaker Neo
+
+
+
+Auto-Scaling is suited for ____________________.
+
+-$$Production Environment
+
+
+
+Pause and Resume of Hyperparameter tuning jobs are _______________.
+
+-$$Supported by a limited number of algorithms
+
+
+Search results of models can be traced to ___________________.
+
+-***Metrics
+***Training dataset
+***Training job
+***Hyper parameters and metrics
+
+
+
+Metrics are used to ____________________.
+
+-$$Control Auto-scaling and manage search results
+
+
+We can ensure models are secure, at ease, _________________________________.
+
+-$$when they are pre-approved in MarketPlace
+
+
+
+Amazon Cognito helps in private workforce management through ___________.
+
+-$$Teams and Tasks
+
+
+
+
+Most of the SageMaker resources like instances and communication between resources are internet-enabled by default.
+
+-$$True
+
+
+
+Ground Truth Labeling is ___________________.
+
+-$$All the options
+
+
+Which of the following statements is not correct with respect to SageMakerFullAccess Policy?
+
+-$$It gives access to all related S3 buckets.
+
+
+
+MDPs state helps in _________________.
+
+-$$$All the options
+
+
+
+Reinforcement Learning optimizes agent performance in an environment with help of __________________.
+
+-$$Reward and punishment
+
+
+Greengrass is used to deploy models for _________________.
+
+-$$IoT devices
+
+
+Multiple label classification can be facilitated using Ground Truth.
+
+-$$Annotation Consolidation
+
+
+
+API calls for instance management is recorded by ________________.
+
+- $$CloudTrail
+
+
+
+Containers in Inference Pipelines communicate with each other using ________________.
+
+-$$HTTP Calls
+
+
+Instance Access in SageMaker can be restricted using __________________.
+
+-$$All the options
+
+
+Which of the following service can be used for Data Collection and Transformation?
+
+-$$Amazon Glue
+
+
+
+Auto Scaling of SageMaker Instances is controlled by ________________.
+
+-$$CloudWatch
+
+
+
+Elastic Inference can be provided in the order of _______________________.
+
+-$$Teraflops
+
+
+Overfitting can be avoided by increasing ________________________.
+
+-$$Regularization
+
+
+GPU Acceleration improves the performance of Instances.
+
+-$$Depends on algorithm
+
+
+Which of the following algorithms is best suited for detecting malicious server activity?
+
+-$$IP Insights
+
+
+
+Amazon Hosting Services is preferred for ________________.
+
+-$$Real-time prediction
+
+
+
+Identify the Memory-based Learning models.
+
+-$$K - Nearest Neighbou
+
+
+
+Default instance storage allotted is _______________________.
+
+-$$5 GB
+
+
+Artifacts from training jobs in S3 can be deleted once the model is deployed saving space and money.
+
+-$$False
+
+
+
+A Data Scientist's role is given all the permissions similar to NeptuneFullAccess.
+
+-$$False
+
+
+Training Code and Inference Code to train and evaluate models is stored in _____________.
+
+-$$Amazon ECR
+
+
+
+In GroundTruth, to reduce costs, manually labeled data can be used for ______________.
+
+-$$Building Private learning model
+
+
+Reinforcement Learning models can be trained in simulated VR environments using ______________.
+
+-$$Sumerian
+
+
+Amazon SageMaker Neo is an open source compiler.
+
+-$$True
+
+
+Metrics can be searched actively before _____________ of their latest update.
+
+-$$2 weeks
+
+
+Identify a vulnerable communication point while using default settings.
+
+-$$Communication between Instances and S3 Storage
+
+
+
+Hyperparameter tuning can be fruitful only when _________________________.
+
+-$$Models are simple and parameters are limited
+
+
+Model can be created from AWS Market Place using _____________________.
+
+-$$Both the options
+
+
+Adding New classes to the previously trained models can be optimized by ___________________.
+
+-$$Incremental Training
+
+Amazon Cognito helps in private work force management through ________________.
+
+-$$Teams and Tasks
+
+To capture metrics for custom models it is mandatory _______________.
+
+-$$To specify the logged data and use regular expressions
+
+
+

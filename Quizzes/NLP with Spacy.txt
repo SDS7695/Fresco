@@ -1,0 +1,83 @@
+1. Under which license is spaCy released?
+Ans MIT
+
+2. Name the attribute of Doc object to find the named entities.
+Ans ents
+
+3. When doing similarity tests in spacy, higher score means lesser similarity. State if the statement is true or false?
+Ans False
+
+4. The POS tag ‘ADJ’ stands for ___ .
+Ans Adjective
+
+5. Why does spaCy store strings in hashed form?
+Ans To save space
+
+6. Which function is used to load a model in spaCy?
+Ans load
+
+7. spaCy can be used in conjunction with which ML library?
+Ans All of the options 
+
+8. spaCy consists of ____ .
+Ans All of the options
+
+9. What is the name of the displacy ent visualisation in style parameter?
+Ans ent
+
+10. displaCy is used to visualize syntactic dependencies. Is the statement true or false?
+Ans True
+
+11. Name the function used to find similarity score in spaCy?
+Ans Similarity
+
+12. SpacSpacy’s pre-trained models for NER can be customized. Is the statement true or false?
+Ans True 
+
+13. What is the main advantage of using a centralized string store?
+Ans Less space -- wrong
+
+14. Token does not have contextual information. Is the statement true or false?
+Ans False
+
+15. Strings are handled internally in their unhashed forms.Is the statement true or false?
+Ans False 
+
+16.The maximum similarity score is 0. Is the statement true or false?
+Ans False
+
+17. Which one of the following options are used to normalize the input data?
+Ans Tokenisation -- wrong
+
+18 A Doc object is a collection of what objects?
+Ans Token
+
+19. Name the method that can be used to whip up a server for visualization in spaCy quickly?
+Ans displacy.serve
+
+20. Which parameter of serve method in displaCy determines the nature of visualization?
+Ans style
+
+21. To obtain raw HTML for a visualization in displaCy, which parameter must be set to True?
+Ans page
+
+22. spaCy is more performance oriented than NLTK. Is the statement true or false?
+Ans True
+
+23. Indexing in a Span object is character-wise. Is the statement true or false?
+Ans False 
+
+24.Lexeme has no contextual information. Is the statement true or false?
+Ans True
+
+25. A Doc object is processed in a series of activities known as the ____________.
+Ans pipeline -- wrong 
+
+26. Spacy offers the fastest syntactic parser in the world. Is the statement true or false?
+Ans True
+
+27. What is the output of: doc = nlp("The quick brown fox jumps over the lazy dog") print(doc[2:4])?
+Ans brown fox
+
+28. Vocab provides lookup tables. Is the statement true or false?
+Ans False -- wrong

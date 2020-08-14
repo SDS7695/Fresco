@@ -100,4 +100,4 @@ Ans. Returns a container with Bars and error bars
 Ans parameter, align set to edge and width is made negative
 
 30. Can a legend be drawn in a bar plot. State true or false.
-Ans True
+Ans. True

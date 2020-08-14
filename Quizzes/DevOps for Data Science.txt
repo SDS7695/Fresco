@@ -1,0 +1,94 @@
+HANDSON of this course can be simply completed by clicling on commands in question. 
+At one place, it will ask to use kubectl on a <FILENAME> ---simply run below commad
+kubectl apply -f <FILENAME>
+
+
+1. Which of the following resources needs to be monitored in production?
+Ans All the options 
+
+2. The action of making a newer version of service available only to limited users is known as __________.
+Ans Canary Deployment
+
+3. The process of creating new features from existing data is known as _____________________.
+Ans Feature Engineering 
+
+4. Which of the following is a popular tool used for continuous integration?
+Ans Jenkins 
+
+4A. Which of the following is a popularly used version control system?
+Ans Git
+
+5. The model developed in Python can be deployed only in a Python-based web framework.
+Ans False
+
+6. The process of transforming data, available in one format, to another format is known as ____________.
+Ans Data Munging
+
+7. In _____________ environment, complete application testing is done in an integration environment.
+Ans Staging Environment
+
+8. Which of the following statements support the need for DevOps?
+Ans All the options 
+
+9. Which of the following Linux command is used for monitoring network utilization?
+Ans netstat
+
+10. Which of the following method of a Flask application, app map a function to an URL?
+Ans route
+
+11. Which of the following tool is used for automating and generating API documentation?
+Ans Swagger
+
+12. Which of the following statement correctly defines an endpoint, /predict, for an R function and map it to the POST method?
+Ans #* @post /predict
+
+13. Which of the following statement starts a web server, provided FLASK_APP variable value is set?
+Ans flask run 
+
+14. Which of the following is not a best practice for designing an API?
+Ans Not using a version number in the URL
+
+15. Which of the following statement correctly defines an input parameter, param1, required by an R function?
+Ans #' param param1
+
+16. Which of the following command is used to load an R script, containing definition of a web api?
+Ans Plumb
+
+16A. Which of the following R package is used for generating a Web API from existing R code?
+Ans Plumber
+
+17. Which of the following framework is used for building REST APIs in Python?
+Ans Flask 
+
+18. Which of the following are allowed HTTP methods in a RESTful API?
+Ans All the options 
+
+19. A service is an abstraction used by software developers. 
+Ans True 
+
+20. Which of the following command is used to generate a docker image named my_image?
+Ans docker create -t my_image ------wrong
+
+21. Which of the following command is used to start a single instance of my_image and let the container expose port 5701?
+Ans kubectl run my_image --image=my_image --port=5701
+
+22. Which of the following command is used to create a deployment, based on details present in deployment.yaml file?
+Ans kubectl apply -f deployment.yaml 
+
+23. Which of the following command is used to get detailed information of a Kubernetes cluster?
+Ans kubectl cluster-info desc------wrong
+
+24. ________ command is used to store a Docker image in a registry
+Ans push 
+
+25. A Kubernetes cluster can be deployed either on a physical or a virtual machine.
+Ans True 
+
+26. Which of the following is not an orchestration platform?
+Ans Mesos----wrong
+
+27 Which of the following is the minikube command-line interface, which is used to interact with Kubernetes cluster?
+Ans kubectl 
+
+28 Which of the following command is used to scale the nodes of Kubernetes cluster automatically?
+Ans kubectl autoscale 

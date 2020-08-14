@@ -1,0 +1,70 @@
+1. Which of the following model needs fewer training samples to learn the word embeddings?
+Ans Negative Sampling
+
+2. Which of the following model predicts if a word is a context of another word or not?
+Ans Negative Sampling
+
+3. Which of the following option is the drawback of representing text as one hot encoding?
+Ans No contextual relationship
+
+4. For the window size two, what would be the maximum number of target words that can be sampled for skip gram model?
+Ans 4
+
+5. Which layer of the Skip-gram model has an actual word embedding representation?
+Ans Hidden
+
+6. Similar words tend to have similar word embeddings representations
+Ans Depends on the corpus that is used to train
+
+7.Which of the following option/options is/are the advantages of learning word embeddings?
+Ans All of the options  
+
+8. Which of the following model tries to predict the target word based on the context?
+Ans CBOW
+
+9. Which of the following activations is used in the CBOW model in its final layer to learn word embeddings?
+Ans Softmax
+
+10 Which of the following model tries to predict the context word based on the target?
+Ans Skipgram
+
+11. Which of the following model does not use the activation function to generate word embeddings?
+Ans GloVe
+12. Which of the following models use co-occurrence matric to generate word vectors?
+Ans GloVe
+
+13. Which of the following values is passed to sg parameter of gensim Word2Vec() to generate word vectors using CBOW gram model?
+Ans 1 {Technically wrong, but correct for quiz}
+
+13A. Which of the following values is passed to sg parameter of gensim Word2Vec() to generate word vectors using skip gram model?
+Ans 0 {Technically wrong, but correct for quiz}
+
+13B. Which of the following values is passed to sg parameter of gensim Word2Vec() to generate word vectors using CBOW gram model?
+Ans: False
+
+14. Which of the following function in Keras is used to add the embedding layer to the model?
+Ans Kera.layers.Embedding()
+
+15. Which of the following algorithm takes into account the global context of the word to generate word vectors?
+Ans Glove 
+
+16. Which of the following is the constructor used in gensim to generate word vectors?
+Ans Word2Vec()
+
+17. Which of the following model learns the word embeddings based on the co-occurrence of the words in the corpus?
+Ans GloVe
+
+18. Which of the following criteria is used by GloVe model to learn the word embeddings?
+Ans Reduce the difference between the similarity of two-word vectors and their co-occurrence value
+
+19. Which of the following metrics uses the dot product of two vectors to determine the similarity?
+Ans Cosine distance
+
+20. Which of the following functions is used to pad sequence in keras?
+Ans keras.preprocessing.tokenizer.pad_sequence()
+
+21. Which of the following constructor is used to tokenize and assign unique index to words in keras?
+Ans from keras.preprocessing.text.Tokenizer()
+
+22. What is the tradeoff between the greedy search and beam search algorithms?
+Ans All of the options
