@@ -1,0 +1,103 @@
+1. What is the expected output of the following code?
+import matplotlib.pyplot as plt
+fig = plt.figure()
+ax = fig.add_subplot(111)
+plt.plot([10, 12, 14, 16])
+plt.show()
+
+Ans. A line passing through points : (0, 10), (2, 14)
+
+2. The area where data is plotted is known as ___________.
+Ans. Axes
+
+3. Which of the following argument to set function, is used for labelling ticks on X- Axis?
+Ans. xticklabels
+
+4. A Figure can contain multiple Axes. State true or false.?
+Ans True
+
+5. What is the default width and height of a matplotlib figure , in inches?
+Ans. 6,4
+
+6. An Axes can be associated with multiple Figures. State true or false.?
+Ans False
+
+7. The expression add_subplot(111) is equivalent to add_subplot(1,1,1). State True or False
+Ans True
+
+8. The function add_subplot returns ___?
+Ans Axes object
+
+9. Which of the following python libraries are used for Data Visualization?
+Ans All the mentioned
+
+10. Which of the following parameter need to be set mandatorily, for plot function to create a legend?
+Ans label
+
+11. Which of the following value creates pentagon shaped markers?
+Ans p
+
+12. Which of the following statements is correct, based on figure generated with below code?
+import matplotlib.pyplot as plt
+fig = plt.figure()
+ax = fig.add_subplot(111, title="My Plot")
+x = [0, 1, 2, 3, 4]
+y = [0, 3, 6, 9, 12]
+plt.scatter(x, y, s=[20, 60], c=['r', 'g'])
+plt.show()
+
+Ans. Results in Error
+
+13. Which of the following value creates triangle markers, pointing left wards?
+Ans <
+
+14. What does the expression plot(x, y, 'bo') do ?
+Ans. Plots blue colored circle markers
+
+15. Which of the following type of values can be passed to color argument of plot function?
+Ans. All those mentioned
+
+16. What does the expression a.plot(x, y, 'g^', x, y, 'g-') do?
+Ans. Plots a single green colored line with upper traingle markers
+
+17. Multiple lines can be plotted using a single plot function? State True or False
+Ans. true
+
+18. Which of the following parameter is used to set the style of a line?
+Ans Linestyle
+
+19. Which of the following parameter is used to set the size of marker , while using plot function?
+Ans. markersize
+
+20. Which of the following parameter is used to make a line disappear, when plotted using plot function?
+Ans. visible
+
+21. Which of the following parameter is used to make a line disappear, when plotted using plot function?
+Ans. shadow
+
+22. What is the purpose for which linewidth parameter is used in a bar function?
+Ans. For specifying width of edges, drawn on bars
+
+23. Which of the following value need to be provided for align argument, if bars need to be aligned on left side, in case of bar function?
+Ans. edge
+
+24. Which of the following parameter is used to set the direction of drawing fractions, in a pie plot?
+Ans. counterclock
+
+25. Which of the following functions is used to create horizontal bar plots?
+Ans. barh
+
+26. Which of the following parameter is used to set error bars on drawn vertical bars in a bar plot?
+Ans. yerr
+
+27. Which of the following parameter is used to set the color of a error bar in bar plots?
+Ans. ecolor
+
+28. What does the function pyplot.bar returns
+Ans. Returns a container with Bars and error bars
+
+29. Align bars on right side edges is feasible when ….
+Ans parameter, align set to edge and width is made negative
+
+30. Can a legend be drawn in a bar plot. State true or false.
+Ans True
