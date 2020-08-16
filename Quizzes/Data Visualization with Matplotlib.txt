@@ -101,3 +101,106 @@ Ans parameter, align set to edge and width is made negative
 
 30. Can a legend be drawn in a bar plot. State true or false.
 Ans. True
+
+31. Which of the following is not a key of a dictionary, returned by boxplot function?
+Ans. rect
+
+32. Which of the following parameter is used to set to draws bars of histogram horizontally
+Ans. orientation
+
+33. What does the function boxplot return?
+Ans. dict
+
+34. Which of the following parameter is used to set the symbol for points lying after whisker?
+Ans. sym
+
+35. What happens when a list of values, corresponding to multiple distributions , is passed as input to hist function?
+Ans. In each bin, you will see bars correpsonding to different distributions
+
+36. Which of the following parameter need to be set to increase or decrease the number of outliers ?
+Ans. whis
+
+37. Inter Quartile Range is ___?
+Ans. Q3 - Q1
+
+38. What does the function hist return ?
+Ans. All those mentioned
+
+39. Which of the following parameter is used to change the position of boxplots?
+Ans. positions
+
+40. What does notches represent in a boxplot ?
+Ans. Confidence interval around the median
+
+41. What is the extension of a matplotlib style sheet?
+Ans. mplstyle
+
+42. For applying different settings from default one to many plots, which of the following is the best suited one?
+Ans. To make changes in matplotlibrc file
+
+43. Which of the following expressions list the names of styles associated with matplotlib ?
+Ans. plt.style.available
+
+44. Two or mor styles can be composed. State true or false.
+Ans. True
+
+45. Which of the following functions assisting in specifying the style sheets to be used ?
+Ans. Both
+
+46. Which of the following functions is used to locate the matplotlib config directory 
+Ans. matplotlib.get_configdir
+
+47. Which of the following dictionary stores all the settings present in a matplotlibrc file?
+Ans. rcParams
+
+48. Which of the following expression returns location of matplotlibrc file?
+Ans. matplotlib.matplotlib_fname
+
+49. How many rows does plot1 occupy in the figure, plotted using below code?
+axes1 = plt.subplot(2, 2, (1,3), title='Plot1')
+axes2 = plt.subplot(2, 2, 2, title='Plot2')
+axes3 = plt.subplot(2, 2, 4, title='Plot3')
+plt.show()
+
+Ans. 2
+
+50. What does the pyplot method, subplots return?
+Ans. A figure and list of axes
+
+51. Which parameter is used to set a Main title for a figure with multiple plots?
+Ans. main_title
+
+52. What does the function subplot return?
+Ans. Axes objects
+
+53. How many subplots occupy two rows and one column in the figure, plotted using below code?
+import matplotlib.gridspec as gridspec
+fig = plt.figure()
+gs = gridspec.GridSpec(3, 3)
+ax1 = plt.subplot(gs[0, :])
+ax2 = plt.subplot(gs[1, :-1])
+ax3 = plt.subplot(gs[1:, -1])
+ax4 = plt.subplot(gs[-1, 0])
+ax5 = plt.subplot(gs[-1, -2])
+plt.show()
+
+Ans. 1
+
+54. Which of the following function adjusts the subplot params so that subplots fits into figure area?
+Ans. tight_layout
+
+55. Which of the following parameter is used to set the background of subplot?
+Ans. axisbg
+
+56. How many subplots occupy two rows in the figure, generated using below code?
+import matplotlib.gridspec as gridspec
+fig = plt.figure()
+gs = gridspec.GridSpec(3, 3)
+ax1 = plt.subplot(gs[:2, :2])
+ax2 = plt.subplot(gs[0, 2])
+ax3 = plt.subplot(gs[1, 2])
+ax4 = plt.subplot(gs[-1, 0])
+ax5 = plt.subplot(gs[-1, 1:])
+plt.show()
+
+Ans. 1
