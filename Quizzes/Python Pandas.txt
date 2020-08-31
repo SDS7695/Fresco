@@ -1,0 +1,176 @@
+1. Which of the following expressions are used to check if each element of a series s is present in the list of elements [67, 32]. Series s is defined as shown below.
+s = pd.Series([99, 32, 67],list('abc'))
+Ans. s.isin([67, 32])
+
+2. What is the output of the following code?
+import pandas as pd
+s = pd.Series([89.2, 76.4, 98.2, 75.9], index=list('abcd'))
+print(s[['c', 'a']])
+
+Ans. c    98.2
+     a    89.2
+     dtype: float64
+
+3. What is the shape of the data frame df defined in the below-shown code?
+import pandas as pd
+data = [{'a': 1, 'b': 2}, {'a': 5, 'b': 10, 'c': 20}]
+df = pd.DataFrame(data)
+
+Ans. (2,3)
+
+4. Which of the following attributes or arguments are used to set column names of a data frame?
+Ans. columns
+
+5. What is the shape of the data frame df defined in the below-shown code?
+import pandas as pd
+data = [{'a': 1, 'b': 2}, {'a': 5, 'b': 10, 'c': 20}]
+df = pd.DataFrame(data, columns=['a', 'b'])
+
+Ans. (2,2)
+
+6. Which of the following is not a Data Structure of Pandas?
+Ans. Dictionary
+
+7. Which of the following cannot be used to create a Data frame?
+Ans. A tuple of tuples
+
+8. What is the data type of series s defined in below code?
+Ans. object
+
+9. Which of the following argument is used to label the elements of a series?
+Ans. index
+
+10. Which of the following expression returns the first two rows of df, defined below?
+Ans. Both df[:2] and df.iloc[:2]
+
+11. Which of the following expression is used to add a new column 'C' to a data frame df, with three rows?
+Ans. df['C'] = [12, 98, 45]
+
+12. Which of the following expression is used to delete the column, A from a data frame named df?
+Ans. del df['A']
+
+13. Which of the following expression returns the second row of df, defined below?
+import pandas
+df = pd.DataFrame({'A':[34, 78, 54], 'B':[12, 67, 43]}, index=['r1', 'r2', 'r3'])
+
+Ans. df.iloc[1]
+
+14. ________ is used as an argument of the readcsv method to make data of a specific column as an index.
+Ans. index_col
+
+15. Which of the following method is used to read data from excel files?
+Ans. read_excel
+
+16. Which of the following is used as argument of read_csv method to treat data of specific columns as dates?
+Ans. parse_dates
+
+17. State whether the following statement is true or false? The read_csv method, by default, reads all blank lines of an input CSV file.
+Ans. False
+
+18. Which of the following method is used to write a data frame data to an output CSV file?
+Ans. to_csv
+
+19. State whether the following statement is true or false? The read_csv method can read multiple columns of an input file as indexes.
+Ans. True
+
+20. Which of the following is used as an argument of read_csv method to skip first n lines of an input CSV file?
+Ans. skiprows
+
+21. What is the length of DatetimeIndex object created with the below expression?
+pd.date_range('11-Sep-2017', '17-Sep-2017', freq='2D')
+Ans. 4
+
+22.What is the length of DatetimeIndex object created with the below expression?
+pd.bdate_range('11-Sep-2017', '17-Sep-2017', freq='2D')
+Ans. 4
+
+23. Which of the following method is used to convert a list of dates like strings into datetime objects?
+Ans. to_datetime
+
+24. What is the output of the following code?
+import pandas as pd
+d = pd.date_range('11-Sep-2017', '17-Sep-2017', freq='2D')
+len(d[d.isin(pd.to_datetime(['12-09-2017', '15-09-2017']))])
+
+Ans. 1
+
+25. What is the length of PeriodIndex object created from the expression pd.period_range('11-Sep-2017', '17-Sep-2017', freq='M')?
+Ans. 1
+
+26. Which of the following method is used to fill null values with a deafult value?
+Ans. fillna
+
+27. Which of the following argument values are allowed for the method argument of fillna?
+Ans. All
+
+28. By default, missing values in any data set are read as ...........
+Ans. NaN
+
+29. Which of the following methods is used to remove duplicates?
+Ans. drop_duplicates
+
+30. Unrecognized datetime value is treated as _________.
+Ans. NaT
+
+31. Which of the following method of pandas is used to check if each value is a null or not?
+Ans. isnull
+
+32. Which of the following method is used to eliminate rows with null values?
+Ans. dropna
+
+33. Consider a data frame df with columns ['A', 'B', 'C', 'D'] and rows ['r1', 'r2', 'r3']. What does the expression df[lambda x : x.index.str.endswith('3')] do?
+Ans. Filters the row labelled r3
+
+34. Consider a data frame df with columns ['A', 'B', 'C', 'D'] and rows ['r1', 'r2', 'r3'], Which of the following expression is used to extract columns 'C' and 'D'?
+Ans. df.loc[:, lambda x : x.columns.isin(['C', 'D'])]
+
+35. Consider a data frame df with 10 rows and index [ 'r1', 'r2', 'r3', 'row4', 'row5', 'row6', 'r7', 'r8', 'r9', 'row10']. What does the expression g = df.groupby(df.index.str.len()) do?
+Ans. Groups df based on lebgth of each index value
+
+36. Consider a data frame df with columns ['A', 'B', 'C', 'D'] and rows ['r1', 'r2', 'r3']. Which of the following expression filters the rows whose column B values are greater than 45 and column 'C' values are less than 30?
+Ans. df.loc[(df.B > 45) & (df.C < 30)]
+
+37. Which of the following methods is used to group data of a data frame, based on specific columns?
+Ans. groupby
+
+38. Which of the following method can be applied on a groupby object to get the group details?
+Ans. groups
+
+39. What does the expression df.iloc[:, lambda x : [0,3]] do? Consider a data frame df with columns ['A', 'B', 'C', 'D'] and rows ['r1', 'r2', 'r3'].
+Ans. Selects Columns 'A',  and 'D'
+
+40. Consider a data frame df with 10 rows and index [ 'r1', 'r2', 'r3', 'row4', 'row5', 'row6', 'r7', 'r8', 'r9', 'row10']. What does the aggregate method shown in below code do?
+g = df.groupby(df.index.str.len())
+g.aggregate({'A':len, 'B':np.sum})
+Ans.  Computes length of column A and Sum of Column B values of each group
+
+41. Consider a data frame df with 10 rows and index [ 'r1', 'r2', 'r3', 'row4', 'row5', 'row6', 'r7', 'r8', 'r9', 'row10']. How many rows are obtained after executing the below expressions
+ g = df.groupby(df.index.str.len())
+g.filter(lambda x: len(x) > 1)
+Ans. 9
+
+42. Which of the following method is used to concatenate two or more data frames?\
+Ans. concat
+
+43. Which of the following argument is used to set the key to be used for merging two data frames?
+Ans. on 
+
+44. Which of the following are allowed values of the argument how of merge method?
+Ans. All of the options 
+
+45. Which argument is used to override the existing column names, while using concat method?
+Ans. keys
+
+46. Which of the following argument is used to ignore the index while concatenating two data frames?
+Ans. ignore_index
+
+47. What is the shape of d defined in below code?
+import pandas as pd
+s1 = pd.Series([0, 1, 2, 3])
+s2 = pd.Series([0, 1, 2, 3])
+s3 = pd.Series([0, 1, 4, 5])
+d = pd.concat([s1, s2, s3], axis=1)
+
+Ans. (4,3)
+
+
