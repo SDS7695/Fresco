@@ -1,0 +1,11 @@
+# Follow the instructions given in the question till opening the terminal. Once terminal is opened, run below commands in terminal 
+
+$ virtualenv myprojectenv
+
+$ source myprojectenv/bin/activate
+
+$ pip install flask 
+
+$ deactivate
+
+Post running the above commands, Run Tests and Submit.

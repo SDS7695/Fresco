@@ -1,0 +1,21 @@
+{{ form.qauthor.label }} : {{ form.qauthor }} <br>
+
+{% for error in form.qauthor.errors %}
+
+<span style="color: red;">[{{ error }}]</span><br>
+
+{% endfor %}
+
+<br>
+
+
+
+{{ form.qstring.label }} : {{ form.qstring }} <br><br>
+
+{% for error in form.qstring.errors %}
+
+<span style="color: red;">[{{ error }}]</span><br>
+
+{% endfor %}
+
+<br>
