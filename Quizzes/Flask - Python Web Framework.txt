@@ -1,0 +1,178 @@
+1. Which of the following commands is used to exit from a virtual environment?
+Ans. deactivate
+
+2. A virtual environment is a copy of Python main environment and cannot be altered.
+Ans. False
+
+3. Which of the following commands is used to update a package pkg using pip?
+Ans. pip install --upgrade pkg
+
+4. Which of the following tools can be used to manage dependencies of a Python project?
+Ans. pip
+
+5. Flask was created by ________
+Ans. Armin Ronacher
+
+6. Which versions of Python include support for creating virtual environment in their standard library?
+Ans. 3.4 and above
+
+7. Which of the following modules is used to create a virtual environment, while working with lower versions of Python?
+Ans. virtualenv
+
+8. Flask has dependency on which of the following?
+Ans. Jinja2
+
+9. Flask is ______ licensed.
+Ans. BSD
+
+10. Which of the following methods registers a view function with a specific URL address?
+Ans. route
+
+11. What is the class to which an instance of a Flask application belongs to?
+Ans. flask.app.Flask
+
+12. What is the default port at which a Flask application runs?
+Ans. 5000
+
+13. A Flask application can be run using python command.
+Ans. True
+
+14. __name__ refers to the file name of the module in which it is used.
+Ans. True
+
+15. Which of the following expressions enables starting the Flask server at address 127.0.0.1 and port 8080
+Ans. app.run(host='127.0.0.1', port=8080)
+
+16. Which of the following code snippets correctly represent creation of a flask application, app?
+Ans. from flask import Flask
+     app = Flask(__name__)
+
+17. Which of the following environment variables is set, before starting a Flask application using flask command?
+Ans. FLASK_APP
+
+18. Which of the following commands is used to start a webserver using flask command?
+Ans. flask run
+
+19. Which of the following commands installs Flask having version 1.0.2?
+Ans. pip install flask==1.0.2
+
+20. Which of the following parameters of route decorator represents URL address accessed by a user?
+Ans. rule
+
+21. A Flask application handles a web request through ________
+Ans. Routing 
+
+22. Which of the following is not a variable part converter provided by Flask and can be used to transform variable part of a URL into a different data type?
+Ans. bool
+
+23. A view function can accept only a maximum of five arguments.
+Ans. False
+
+24. Which of the following functions is used for redirecting web response to a specified URL?
+Ans. redirect
+
+25. A single view function can be mapped to multiple URLs.
+Ans. True
+
+26. Assume a view function display_articles which has user as an argument and displays all articles written by user. Which of the following expressions correctly generates a dynamic URL, which maps to display_articles view function?
+Ans. url_for('display_articles', user='John')
+
+27. Which of the following expressions correctly routes the address http:localhost:5000/blogs/2017/03/ to a corresponding view function? Year and month portions must be captured as integers.
+Ans. @app.route("/blogs/<int:year>/<int:month>/")
+
+28. Which of the following functions is used to generate dynamic URLs?
+Ans. url_for
+
+29. The variable parts of value associated with rule parameter is enclosed using _______ brackets?
+Ans. <>
+
+30. Which of the following functions is used to display a specific template to a user?
+Ans. render_template
+
+31. Assume a variable named user is passed to a template while displaying it. Which of the following expressions in template accesses the value of user variable?
+Ans. {{ user }}
+
+32. In which of the following templates is tag used for defining a place holder, in parent template, where derived templates can insert their own content?
+Ans. block
+
+33. Deriving a template based on an existing template is not allowed in Flask.
+Ans. False
+
+34. Which of the following separates presentation logic from business logic in a Flask application?
+Ans. Templates
+
+35. In between which of the following expressions, content based on a condition can be written in a template?
+Ans. {% if ... %}, {% endif %}
+
+35A. In between which of the following expressions, content depicting a repeated action can be written in a template?
+Ans. {% for ... %}, {% endfor %}
+
+36. In which of the following templates is tag used for inheriting content of another template?
+Ans. extends
+
+37. Templates can be stored in which of the following folder present in an application?
+Ans. templates
+
+38. When a specific template is called for display and it is not available, which error is displayed to the user in dev environment?
+Ans. TemplateNotFound
+
+39. Which of the following variables needs to be configured for identifying location of database?
+Ans. SQLALCHEMY_DATABASE_URI
+
+40. Which of the following expressions is used to add an object obj1 to an associated table table1 ?
+Ans. db.session.add(obj1)
+
+41. Most of the flask extensions are named in which of the following formats?
+Ans. Flask-Foo
+
+42. Which of the following commands applies the changes to a database?
+Ans. flask db upgrade
+
+43. Which of the following commands creates a Migration repository?
+Ans. flask db env
+
+44. Which of the following expressions commits the changes done to a database?
+Ans. db.session.commit()
+
+45. Every database model is derived from _____, when SQLAlchemy is associated with a Flask application using the expression,db = SQLAlchemy(app)?
+Ans. db.Model
+
+46. Which of the following extensions is used to integrate a Flask application with SQLAlchemy?
+Ans. Flask-SQLAlchemy
+
+47. Which of the following commands generates migration scripts?
+Ans. flask db migrate
+
+48. Which of the following extensions is required for performing database migrations?
+Ans. Flask-Migrate
+
+49. Which of the following classes can be used to define a submit button in a web form?
+Ans. SubmitField
+
+50. Which of the following modules contains utilities for defining various fields of a web form?
+Ans. wtforms
+
+51. Which of the following extensions is used to integrate web forms in a flask application?
+Ans. Flask-WTF
+
+52. Which of the following variables needs to be configured for viewing forms in a Flask application?
+Ans. SECRET_KEY
+
+53. Which of the following modules can be used to define validations for various fields specified in a form?
+Ans. wtforms.validators
+
+54. Which of the following validators can be used to compare values of two form fields?
+Ans. validators.EqualTo
+
+55. Which of the following definitions correctly defines view1, that handle GET and POST requests?
+Ans.    @app.route("/asubmit", methods=['GET','POST'])
+	def view1():
+
+56. Which of the following classes can be used to define a Radio button in a web form?
+Ans. RadioField
+
+57. Which of the following validators can be used for validating a URL?
+Ans. validators.URL
+
+58. Which of the following expressions correctly accesses the form field address, in a template?
+Ans. {{ form.address }}
