@@ -1,0 +1,185 @@
+1. ________ distributes different data across multiple servers
+Ans. Sharding
+
+2. NoSQL databases are designed to expand _________.
+Ans. Horizontally
+
+3. Limitation(s) of RDBMS is/are ______________.
+Ans. Scalability/Database design complexity
+
+4. The horizontal scaling approach tends to be cheaper as the number of operations, and the size of the data increases
+Ans. True
+
+5. The full form of 'CRUD' is _________.
+ANs. Create-Read-Update-Delete
+
+Sharding replication follows__________.
+Ans. Horizontal partioning of data
+
+In MongoDB, data is represented as a collection of __________
+Ans. JSON documents
+
+The scalability of the Key-Value database is achieved through Sharding.
+Ans. True
+
+Distributed Database solutions can be implemented by __________.
+Ans. All of these
+
+Which among the following options is a challenge in the Master-Slave Replication model?
+Ans. Write Resilience
+
+In the Master-Slave Replication model, the node which pushes all the updates in data to subordinate nodes is __________.
+Ans. Master node
+
+In the Master-Slave Replication model, different Slave Nodes contain __________.
+Ans. Same Data
+
+In the Master-Slave Replication model, the slave node services __________.
+Ans. All the options 
+
+Which of the following does not have restrictions on the data type it stores?
+Ans. Columnar Family in Columnar Datastore
+
+Cassandra was developed by __________
+Ans. Facebook
+
+In a Key-Value datastore, both keys and values need to be unique.
+Ans. False
+
+Hash Table Design is similar to __________.
+Ans. Key-Value Datastore
+
+In RDBMS, the attributes of an entity are stored in __________.
+Ans. Columns 
+
+The most popular Navigational DBMS system is/are __________.
+Ans. Integrated Management System and Integrated Database System
+
+Which among the following provides support for querying the data structure it stores?
+Ans. Redis
+
+The type of Graph Store that works in real-time is __________.
+Ans. Graph Database
+
+The syntax for retrieving specific elements from an XML document is __________.
+Ans. XPath
+
+Which of the following has properties attached to it in the Graph datastore?
+Ans. Nodes & Relationships 
+
+Example(s) of Columnar Database is/are __________.
+Ans. Cassandra and HBase
+
+Which type of database requires a trained workforce for the management of data?
+Ans. RDBMS
+
+__________ are chunks of related data often accessed together.
+Ans. Column Families
+
+A Graph Store similar to OLAP in RDMS is __________.
+Ans. Graph Compute Engine
+
+Which type of scaling handles voluminous data by adding servers to the clusters?
+Ans. Horizontal
+
+The language to transform XML documents into other formats, like non-XML formats such as HTML is _________.
+Ans. XSLT
+
+__________ is a Columnar database that runs on a Hadoop cluster.
+Ans. Apache HBase
+
+
+In a Column Data Model, the number of columns that a row can have __________.
+Ans. varies
+
+The scalability of Key-Value database is achieved through __________.
+ANs. Sharding Replication
+
+The file format(s) that can be stored and retrieved from the Document Store NoSQL data model is/are __________.
+Ans. All of these
+
+Key-value databases would not be the best fit if there is/are __________
+Ans. All the options 
+
+Relational Database satisfies __________.
+Ans. ACID properties
+
+NoSQL Databse satisfies 
+Ans. BASE properties
+
+The type of scaling supported by NoSQL is __________.
+Ans. Horizontal 
+
+JSON is a lightweight substitute for XML.
+Ans. True 
+
+Which Replication model has the strongest resiliency power?
+Ans. Peer to Peer Replication Model
+
+__________ is an Object Oriented Database.
+Ans. NoSQL 
+
+Riak DB leverages the CAP Theorem to improve its scalability.
+Ans. True 
+
+The key parameter(s) to be taken into consideration while weighing NoSQL databases against each other is/are __________
+Ans. All the options 
+
+Which type of Key-Value datastore DB has its key and value sorted?
+Ans. Ordered Key-Value Datastore
+
+NoSQL data replication is __________.
+Ans. Homogeneous 
+
+All NoSQL databases are similar.
+Ans. False 
+
+An XML document which satisfies the rules specified by W3C is __________.
+Ans. Well Formed XML 
+
+The Specialized Query Language(s) used in Graph datastore is/are __________.
+Ans. Cypher 
+
+In Riak Key Value datastore, the variable 'W' indicates __________.
+Ans. Number of Write Operations 
+
+An expressive structure with the collection of nodes and relationships interlinking them is __________.
+Ans. Graph Datastore
+
+An example of Key-Value datastore is __________.
+Ans. MongoDB
+
+__________ in Key-Value Databases are similar to 'Tables' in RDBMS.
+Ans. Buckets 
+
+Columnar datastore avoids storing null values.
+Ans. True 
+
+Neo4j is an example of Document Store DB.
+Ans. False
+
+
+Which among the following is the correct API call in Key-Value datastore?
+Ans. put(key, value)
+
+An API used in creating a Key-Value Pair in Key-Value datastore is __________.
+Ans. put(key, value)
+
+Which Replication model supports database read and write operations in all the nodes?
+Ans. Peer to Peer Replication Model
+
+Which of the following factors influence(s) the choice of replication model?
+Ans. All the options 
+
+Terrastore is an example of __________.
+Ans. Graph datastore -- 
+
+Apache Kudu distributes data through Vertical Partitioning.
+Ans. False -----
+
+
+
+
+
+
+
