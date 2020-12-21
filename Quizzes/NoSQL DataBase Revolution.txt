@@ -138,7 +138,7 @@ An XML document which satisfies the rules specified by W3C is __________.
 Ans. Well Formed XML 
 
 The Specialized Query Language(s) used in Graph datastore is/are __________.
-Ans. Cypher 
+Ans. All the options 
 
 In Riak Key Value datastore, the variable 'W' indicates __________.
 Ans. Number of Write Operations 
@@ -172,10 +172,10 @@ Which of the following factors influence(s) the choice of replication model?
 Ans. All the options 
 
 Terrastore is an example of __________.
-Ans. Graph datastore -- 
+Ans. Graph datastore -- doubt
 
 Apache Kudu distributes data through Vertical Partitioning.
-Ans. False -----
+Ans. False 
 
 
 
