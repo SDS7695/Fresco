@@ -1,0 +1,16 @@
+#Write your code here
+
+library(readr)
+library(dplyr)
+fda <- read_csv("fda.csv")
+
+post2005 <- fda %>%
+    filter(issued >= "2005-01-01") %>%
+    arrange(issued)
+    print(post2005)
+
+letters_year <- fda %>%
+   mutate(year = format(issued, "%Y")) %>%
+   group_by(year) %>%
+   summarize(letters=n())
+   print(letters_year)
