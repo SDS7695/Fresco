@@ -1,0 +1,43 @@
+CONFIGURE NGINX AS ROUND ROBIN LOAD BALANCER TO CLUSTER A 3 NODE APP
+
+---------------------------------------------
+link for help - https://medium.com/@samanbaboli/how-to-load-balancing-nodejs-apps-using-nginx-a3b4ceb7c782 
+---------------------------------------------
+
+----------------------------------------------------------------------------------
+in cd/project/challenge
+
+load.js
+
+----------------run on terminal 
+pm2 start load.js -f -- 3000
+pm2 start load.js -f -- 3001
+pm2 start load.js -f -- 3002
+
+
+
+------------------------------------------------------------------------------
+$ cd etc/nginx/sites-enabled
+
+$ sudo vim default
+
+upstream default_server {
+    server 127.0.0.1:3000;      # httpServer1 listens to port 3000
+    server 127.0.0.1:3001;      # httpServer2 listens to port 3001
+    server 127.0.0.1:3002;      # httpServer3 listens to port 3002
+
+}
+
+server {
+        listen 8000 default_server;
+        listen [::]:8000 default_server;
+
+-------------------In location para, edit - 
+
+ location / {
+                # First attempt to serve request as file, then
+                # as directory, then fall back to displaying a 404.
+
+                try_files $uri $uri/ =404;
+                proxy_pass         http://default_server;
+}
