@@ -1,0 +1,62 @@
+'use strict';
+
+const fs = require('fs');
+
+process.stdin.resume();
+process.stdin.setEncoding('utf-8');
+
+let inputString = '';
+let currentLine = 0;
+
+process.stdin.on('data', function(inputStdin) {
+    inputString += inputStdin;
+});
+
+process.stdin.on('end', function() {
+    inputString = inputString.split('\n');
+
+    main();
+});
+
+function readLine() {
+    return inputString[currentLine++];
+}
+
+
+/*
+ * Complete the 'exam' function below.
+ *
+ * The function is expected to return an INTEGER.
+ * The function accepts INTEGER_ARRAY v as parameter.
+ */
+
+function exam(v) {
+    // Write your code here
+    const modifiedArr = v.map(q => q === 0 ? -1 : 1);
+    for(let k = 0; k < modifiedArr.length; k++) {
+        const my = modifiedArr.slice(0, k).reduce((a, b) => a + b, 0);
+        const friend = modifiedArr.slice(k).reduce((a, b) => a + b, 0);
+
+        if(my > friend) return k;
+    }
+
+    
+}
+function main() {
+    const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
+
+    const vCount = parseInt(readLine().trim(), 10);
+
+    let v = [];
+
+    for (let i = 0; i < vCount; i++) {
+        const vItem = parseInt(readLine().trim(), 10);
+        v.push(vItem);
+    }
+
+    const result = exam(v);
+
+    ws.write(result + '\n');
+
+    ws.end();
+}
