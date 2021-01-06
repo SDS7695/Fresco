@@ -1,0 +1,100 @@
+1. Which of the following methods is used to remove a resource?
+Ans. delete
+
+2. Which of the following extensions is used for developing REST APIs in Flask?
+Ans. Flask-RESTFul
+
+3. Which of the following code snippets sends a URL request to www.google.com?
+Ans. curl http://www.google.com/
+
+4. Which of the following methods is used to map a defined resource to a URL?
+Ans. add_resource
+
+5. REST is stateless. State true or false.
+Ans. True
+
+6. Which of the following expressions sends a POST request to create a resource at 127.0.0.1:5000/blogs/5 using data in data variable?
+Ans. from urllib import request
+     request.Request('http://127.0.0.1:5000/blogs/5, data=data, method='POST')
+
+6B. Which of the following expressions sends a PUT request to create a resource at 127.0.0.1:5000/blogs/5 using data in data variable?
+Ans. from urllib import request
+     request.Request('http://127.0.0.1:5000/blogs/5, data=data, method='PUT')
+
+7. Which of the following errors occurs when request gets terminated, while using request of urllib package?
+Ans. urllib.error.HTTPError
+
+8. The response of a POST request must always be a dictionary.
+Ans. False
+
+9. In REST API, URLs are expressed with verbs rather than nouns.
+Ans. False
+
+10. Which of the following parameters needs to be set for providing helpful information to the user while using abort method?
+Ans. message
+
+11.If a HTTP request is sent using request of urllib package and a HTTPError is captured in a variable e, which of the following expressions displays the captured error message?
+Ans. read`
+
+12. Which of the following expressions sends a delete request to a resource available at 127.0.0.1:5000/blogs/4?
+Ans. from urllib import request
+     request.Request('http://127.0.0.1:5000/blogs/4, method='DELETE')
+
+13. From which of the following dictionary variables can data passed in a submitted form be accessed?
+Ans. request.form
+
+14. Which of the following functions can be used to terminate HTTP request with a message and status code?
+Ans. abort 
+
+15. The utilities of reqparse are based on which module?
+Ans. argparse
+
+16. Which of the following methods is used to remove an argument from parser_copy, copied from the parser instance parent_parser?
+Ans. remove_argument
+
+17. Which of the following methods is used to edit the settings set on parser_copy, copied from the parser instance parent_parser?
+Ans. replace_argument
+
+18. Which of the following parameters is set to specify that passing an argument is mandatory, while adding the argument to a created parser?
+Ans. required
+
+19. Which of the following modules of flask_restful is used for parsing request arguments?
+Ans. reqparse
+
+20. Which of the following modules is used to format and filter the response data?
+Ans. format---------wrong
+
+21. Which of the following methods needs to be defined in a custom field class derived from fields.Raw?
+Ans. format
+
+22. Which of the following methods needs to be defined in a custom field class derived from fields.Raw?
+Ans. fields.Custom----------wrong
+
+23. Which of the following parameters needs to be set for renaming private field name to a public one?
+Ans. attribute
+
+24. Which of the following parameters needs to be set for renaming private field name to a public one?
+Ans. fields.DateTime
+
+25. What is the output of the following code snippet?
+   from flask_restful import marshal, fields
+   data = {'age':24, 'fname':'Jack', 'lastname':'Sparrow'}
+   required_fields = {'fname':fields.Raw}
+   print(marshal(data, required_fields))
+Ans. OrderedDict([('fname', 'Jack')])
+
+26. Multiple URLs can be mapped to a single resource.
+Ans. True
+
+27. Which of the following code snippets sets a response header?----------------wrong
+Ans. from flask_restful import Resource
+     class Hello(Resource):
+         def get(self):
+         return 201, {'tag1': 'some-message'}
+
+28. Resources are built on top of Flask ______
+Ans. models ---------------wrong
+
+29. Which of the following methods can be used to format and filter the response data?
+Ans. All the options
+
