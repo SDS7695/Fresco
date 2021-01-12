@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mobile Shopping</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <header class="header">
+    <h1>Mobile Services </h1>
+     <a href="index.html"><input type="button" value="Home" ></input></a>
+    <input type="text" placeholder="Search.."></input>
+     <input type="submit" value="Search"></input>
+     </header>
+     <nav>
+         <a href="mobile.html" class="active">Mobile</a>
+        <a href="accessories.html">Accessories</a>
+     </nav>
+          <h1>Mobiles</h1>
+     <div class="main">
+
+
+     <div class="row">
+        <div class="product">
+
+             <img></img>
+               <b>ABCD</b>
+
+
+          <input type="button" value="Buy Now"></input>
+        </div>
+        <div class="product">
+
+             <img></img>
+               <b>ABCD</b>
+
+
+          <input type="button" value="Buy Now"></input>
+        </div>
+        <div class="product">
+
+             <img></img>
+              <b>ABCD</b>
+
+
+          <input type="button" value="Buy Now"></input>
+        </div>
+        <div class="product">
+
+             <img></img>
+               <b>ABCD</b>
+
+
+         <input type="button" value="Buy Now"></input>
+        </div>
+
+      </div>
+      <div class="row">
+
+        <div class="product">
+
+             <img></img>
+               <b>ABCD</b>
+
+
+          <input type="button" value="Buy Now"></input>
+        </div>
+        <div class="product">
+
+             <img></img>
+              <b>ABCD</b>
+
+
+          <input type="button" value="Buy Now"></input>
+        </div>
+        <div class="product">
+
+             <img></img>
+               <b>ABCD</b>
+
+
+          <input type="button" value="Buy Now"></input>
+        </div>
+        <div class="product">
+
+             <img></img>
+               <b>ABCD</b>
+
+
+          <input type="button" value="Buy Now"></input>
+        </div>
+      </div>
+   </div>
+      <footer class="footer_content" >
+       <p>Copyright 2019 HTML5</p>
+     </footer>
+</body>
+</html>
