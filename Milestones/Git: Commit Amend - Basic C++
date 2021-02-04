@@ -1,0 +1,16 @@
+Run following commands:
+
+cd linkedlist_cpp
+git push origin master 
+git checkout -b new_branch
+ls 
+vi linked_list.cpp
+  ---------------- press enter somewhere to change file
+  --------------- press Esc & enter :wq to save and exit
+  
+git add .
+git commit -m "Initial commit"
+git commit --amend
+  ---------------- change commit message to " Initial commit amended"
+  ---------------- press Esc & enter :wq to save and exit
+git push origin new_branch
