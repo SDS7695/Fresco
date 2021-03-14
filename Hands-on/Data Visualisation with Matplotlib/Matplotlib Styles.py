@@ -2,9 +2,9 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import numpy as np
-from matplotlib.testing.decorators import image_comparison
+import matplotlib.gridspec as gridspec
 
-@image_comparison(baseline_images=['Plot_with_Style1'],extensions=['png'])
+
 def test_generate_plot_with_style1():
     with plt.style.context('ggplot'):
         fig = plt.figure(figsize=(8,6))
@@ -28,8 +28,8 @@ def test_generate_plot_with_style1():
                xticks=[1.1,2.1,3.1],
                xticklabels=['setosa','versicolor','viriginica'])
         ax.legend()
+        fig.savefig('plotstyle1.png')
        
-@image_comparison(baseline_images=['Plot_with_Style2'],extensions=['png'])
 def test_generate_plot_with_style2():
     with plt.style.context('seaborn-colorblind'):
         fig = plt.figure(figsize=(8,6))
@@ -53,10 +53,10 @@ def test_generate_plot_with_style2():
                xticks=[1.1,2.1,3.1],
                xticklabels=['setosa','versicolor','viriginica'])
         ax.legend()
+        fig.savefig('plotstyle2.png')
    
 
 
-@image_comparison(baseline_images=['Plot_with_Style3'],extensions=['png'])
 def test_generate_plot_with_style3():
 
     with plt.style.context('grayscale'):
@@ -81,3 +81,8 @@ def test_generate_plot_with_style3():
                xticks=[1.1,2.1,3.1],
                xticklabels=['setosa','versicolor','viriginica'])
         ax.legend()
+        fig.savefig('plotstyle3.png')
+     
+test_generate_plot_with_style1()
+test_generate_plot_with_style2()
+test_generate_plot_with_style3()
