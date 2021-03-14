@@ -2,9 +2,8 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import numpy as np
-from matplotlib.testing.decorators import image_comparison
+import matplotlib.gridspec as gridspec
 
-@image_comparison(baseline_images=['Histogram'],extensions=['png'])
 def test_hist_of_a_sample_normal_distribution():
     fig = plt.figure(figsize=(8,6))
     ax = fig.add_subplot(111)
@@ -14,8 +13,8 @@ def test_hist_of_a_sample_normal_distribution():
     plt.xlabel('X1')
     plt.ylabel('Bin Count')
     plt.title('Histogram of a Single Dataset')
+    fig.savefig('histogram_normal.png')
 
-@image_comparison(baseline_images=['Boxplot'],extensions=['png'])
 def test_boxplot_of_four_normal_distribution():
     fig = plt.figure(figsize=(8,6))
     ax = fig.add_subplot(111)
@@ -30,3 +29,7 @@ def test_boxplot_of_four_normal_distribution():
     plt.ylabel('Value')
     plt.title('Box plot of Multiple Datasets')
     ax.set_xticklabels(labels)
+    fig.savefig('box_distribution.png')
+    
+test_hist_of_a_sample_normal_distribution()
+test_boxplot_of_four_normal_distribution()
