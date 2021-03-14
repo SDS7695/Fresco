@@ -2,9 +2,8 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import numpy as np
-from matplotlib.testing.decorators import image_comparison
+import matplotlib.gridspec as gridspec
 
-@image_comparison(baseline_images=['Sine_Wave_Plot'],extensions=['png'])
 def test_sine_wave_plot():
     fig = plt.figure(figsize=(12,3))
     ax= fig.add_subplot(111)
@@ -22,10 +21,9 @@ def test_sine_wave_plot():
     plt.yticks(yticks)
     plt.grid(ls='--')
     ax.legend()
-   
+    fig.savefig('sinewave.png')
    
 
-@image_comparison(baseline_images=['Multi_Curve_Plot'],extensions=['png'])
 def test_multi_curve_plot():
     fig = plt.figure(figsize=(12,3))
     ax= fig.add_subplot(111)
@@ -40,9 +38,8 @@ def test_multi_curve_plot():
     plt.ylabel('f(X)')
     plt.title('Linear, Quadratic, & Cubic Equations')
     ax.legend()
+    fig.savefig('multicurve.png')
 
-
-@image_comparison(baseline_images=['Scatter_Plot'],extensions=['png'])
 def test_scatter_plot():
     fig = plt.figure(figsize=(12,3))
     ax= fig.add_subplot(111)
@@ -56,3 +53,8 @@ def test_scatter_plot():
     plt.ylim((20,100))
     plt.xticks([1,3,5,7,9,11])
     ax.set_xticklabels(['Jan','Mar','May','Jul','Sep','Nov'])
+    fig.savefig('scatter.png')
+    
+test_sine_wave_plot()
+test_multi_curve_plot()
+test_scatter_plot()
