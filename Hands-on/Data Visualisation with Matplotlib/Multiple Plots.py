@@ -3,9 +3,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.gridspec as gridspec
-from matplotlib.testing.decorators import image_comparison
 
-@image_comparison(baseline_images=['Multiple_Plots_Figure1'],extensions=['png'])
 def test_generate_figure1():
 
     t = np.arange(0.0,5.0,0.01)
@@ -16,8 +14,8 @@ def test_generate_figure1():
     axes1.plot(t,s1)
     axes2 = fig.add_subplot(2,1,2,title='Sin(4*pi*x)')
     axes2.plot(t,s2)
+    fig.savefig('testfigure1.png')
 
-@image_comparison(baseline_images=['Multiple_Plots_Figure2'],extensions=['png'])
 def test_generate_figure2():
 
     np.random.seed(1000)
@@ -42,8 +40,8 @@ def test_generate_figure2():
     axes4.set(xticks=[0.0,0.4,0.8,1.2],
               yticks=[-0.2,0.2,0.6,1.0])
     fig.tight_layout()
+    fig.savefig('testfigure2.png')
 
-@image_comparison(baseline_images=['Multiple_Plots_Figure3'],extensions=['png'])
 def test_generate_figure3():
 
     fig = plt.figure(figsize=(8,6))
@@ -60,3 +58,8 @@ def test_generate_figure3():
     axes3 = plt.subplot(g[0:,1],title='y = x**3')
     axes3.plot(x,y3)
     fig.tight_layout()
+    fig.savefig('testfigure3.png')
+    
+test_generate_figure1()
+test_generate_figure2()
+test_generate_figure3()
