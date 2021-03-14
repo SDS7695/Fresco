@@ -1,9 +1,8 @@
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-from matplotlib.testing.decorators import image_comparison
+import matplotlib.gridspec as gridspec
 
-@image_comparison(baseline_images=['My_First_plot'],extensions=['png'])
 def test_my_first_plot():
     
     # Write your functionality below
