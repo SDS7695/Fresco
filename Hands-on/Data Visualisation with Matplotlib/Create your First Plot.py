@@ -18,3 +18,6 @@ def test_my_first_plot():
            xlim=[0,30],
            ylim=[0,130])
     ax.legend()
+    fig.savefig('scatter.png')
+
+test_my_first_plot()
